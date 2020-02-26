@@ -1,0 +1,44 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: small;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0,0.78);
+}
+
+.nav-right{
+    padding-right: 1em;
+}
+
+.nav-left{
+    padding-right: 1em;
+}
+.left{
+    flex: 1;
+    padding: 1em;
+    align-items: center;
+    padding: 15px 0 0 30px; 
+}
+
+.right{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 30px 0 0; 
+    align-items: center;
+}
+
+.personal{
+    border-radius: 50%;
+}
+
