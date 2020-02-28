@@ -96,9 +96,59 @@ div button{
     border-width: 1px;
     margin-left: 10px;
     border-radius: 3px;
+    color: rgba(0, 0, 0, 0.719);
 }
 
 div button:hover{
     border-color:rgba(95, 99, 104, 0.295);
     cursor: pointer;
 }
+
+footer{
+    font-family: Arial, sans-serif;
+    font-size: small;
+
+}
+
+footer a{
+    color:  #5F6368;
+    text-decoration: none;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: #e4e4e4;
+    border-width: 1px;
+    background-color: #f2f2f2;
+    height: 3.25em;
+    display: flex;
+    align-items: center;
+    color:  #5F6368 ;
+justify-content: space-between;}
+
+.footer-left{
+    padding-left: 27px ;
+}
+
+    .footer-right{
+        padding-right: 27px ;
+    }
+
+    .span-right{
+        justify-content: flex-end;
+        flex: 1;
+        
+    }
+
+    .span{
+        flex: 1;
+        
+    }
+
+    
+    footer a:hover{
+        text-decoration: underline;
+    }
